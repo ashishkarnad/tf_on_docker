@@ -1,0 +1,13 @@
+--2025-09-08 15:12:04--  https://update.code.visualstudio.com/commit:6f17636121051a53c88d3e605c491d22af2ba755/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 13.107.246.48, 2620:1ec:29:1::68
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|13.107.246.48|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://vscode.download.prss.microsoft.com/dbazure/download/stable/6f17636121051a53c88d3e605c491d22af2ba755/vscode-server-linux-x64.tar.gz [following]
+--2025-09-08 15:12:04--  https://vscode.download.prss.microsoft.com/dbazure/download/stable/6f17636121051a53c88d3e605c491d22af2ba755/vscode-server-linux-x64.tar.gz
+Resolving vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)... 199.232.210.172, 199.232.214.172, 2600:1417:75::17cd:58ca, ...
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|199.232.210.172|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 69251819 (66M) [application/octet-stream]
+Saving to: ‘/home/ashish/.vscode-server/bin/6f17636121051a53c88d3e605c491d22af2ba755-1757317423.tar.gz’
+
+ish/.vscode-server/bin/6f1763612105  41%[===========================>                                        ]  27.67M  13.0KB/s    eta 63m 13ssh/.vscode-server/bin/6f17636121051  41%[===========================>                                        ]  27.68M  12.9KB/s    eta 63m 13sh/.vscode-server/bin/6f17636121051a  41%[===========================>                                        ]  27.69M  12.4KB/s    eta 63m 12s/.vscode-server/bin/6f17636121051a5  41%[===========================>                                        ]  27.71M  12.1KB/s    eta 63m 12s.vscode-server/bin/6f17636121051a53  41%[===========================>                                        ]  27.71M  11.7KB/s    eta 63m 10svscode-server/bin/6f17636121051a53c  41%[===========================>                                        ]  27.71M  11.3KB/s    eta 63m 10sscode-server/bin/6f17636121051a53c8  41%[===========================>                                        ]  27.71M  11.3KB/s    eta 63m 10s

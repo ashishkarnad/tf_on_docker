@@ -1,0 +1,1 @@
+#docker rm $(docker ps -a | awk '{if ($7 ~ /Exited/) print $1}')

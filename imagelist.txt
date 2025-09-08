@@ -1,0 +1,70 @@
+CONTAINER ID   IMAGE              COMMAND                  CREATED             STATUS                           PORTS     NAMES
+aab945c867d9   my-terraform-env   "/bin/terraform apply"   About an hour ago   Exited (0) About an hour ago               interesting_burnell
+3b7137890c41   my-terraform-env   "/bin/terraform apply"   About an hour ago   Exited (0) About an hour ago               nostalgic_goldwasser
+72be303d51bf   my-terraform-env   "/bin/terraform apply"   About an hour ago   Exited (0) About an hour ago               admiring_dewdney
+5ca498877f25   my-terraform-env   "/bin/terraform"         About an hour ago   Exited (127) About an hour ago             priceless_mclaren
+3df45676ba0f   my-terraform-env   "/bin/terraform apply"   2 hours ago         Exited (0) 2 hours ago                     romantic_ardinghelli
+d4ef02e45f64   my-terraform-env   "/bin/terraform plan"    2 hours ago         Exited (1) 2 hours ago                     strange_lamport
+ca4f831b6d90   my-terraform-env   "/bin/terraform init"    2 hours ago         Exited (0) 2 hours ago                     modest_hugle
+0d0097742e2b   my-terraform-env   "/bin/terraform"         2 hours ago         Exited (127) 2 hours ago                   hungry_dirac
+f7d587038b05   my-terraform-env   "/bin/terraform apply"   2 hours ago         Exited (0) 2 hours ago                     distracted_meninsky
+49ae54cbe10c   my-terraform-env   "/bin/terraform init"    2 hours ago         Exited (0) 2 hours ago                     admiring_chandrasekhar
+ac57285c0d87   my-terraform-env   "/bin/terraform"         2 hours ago         Exited (127) 2 hours ago                   eager_driscoll
+8acb813c391d   my-terraform-env   "/bin/terraform apply"   2 hours ago         Exited (0) 2 hours ago                     kind_feistel
+655ef715db05   my-terraform-env   "/bin/terraform plan"    2 hours ago         Exited (0) 2 hours ago                     mystifying_jackson
+e256076e3410   my-terraform-env   "/bin/terraform"         2 hours ago         Exited (127) 2 hours ago                   youthful_solomon
+7aa37a1933b8   my-terraform-env   "/bin/terraform init"    2 hours ago         Exited (0) 2 hours ago                     beautiful_wilson
+ddd1d0c1a0e0   my-terraform-env   "/bin/terraform"         2 hours ago         Exited (127) 2 hours ago                   crazy_sinoussi
+b39dec57a5dc   my-terraform-env   "/bin/terraform apply"   2 hours ago         Exited (0) 2 hours ago                     magical_meninsky
+66d34532f750   my-terraform-env   "/bin/terraform"         2 hours ago         Exited (127) 2 hours ago                   peaceful_moore
+24a74943e4ca   my-terraform-env   "/bin/terraform apply"   2 hours ago         Exited (0) 2 hours ago                     beautiful_ritchie
+96a3adcea121   my-terraform-env   "/bin/terraform apply"   2 hours ago         Exited (0) 2 hours ago                     eloquent_euclid
+cb35d0cd71a2   my-terraform-env   "/bin/terraform plan"    2 hours ago         Exited (0) 2 hours ago                     hopeful_kare
+8b34cdc64c63   my-terraform-env   "/bin/terraform init"    2 hours ago         Exited (0) 2 hours ago                     gracious_dewdney
+b57e2af270d8   my-terraform-env   "/bin/terraform"         2 hours ago         Exited (127) 2 hours ago                   gracious_swirles
+7a90dc0bcff3   my-terraform-env   "/bin/terraform"         4 hours ago         Exited (127) 4 hours ago                   serene_sanderson
+57c473c8e1a6   my-terraform-env   "/bin/terraform"         4 hours ago         Exited (127) 4 hours ago                   nostalgic_raman
+9a1130dcbed1   my-terraform-env   "/bin/terraform plan"    4 hours ago         Exited (0) 4 hours ago                     zealous_lewin
+7a3dc7d4fac3   e                  "/pause AWS_ACCESS_K…"   4 hours ago         Exited (0) 4 hours ago                     competent_shtern
+46eda5f5fe13   e                  "/pause AWS_ACCESS_K…"   4 hours ago         Exited (0) 4 hours ago                     kind_mestorf
+54168c94a2f1   e                  "/pause AWS_ACCESS_K…"   4 hours ago         Exited (0) 4 hours ago                     crazy_dewdney
+b8c4fd5b0498   e                  "/pause AWS_ACCESS_K…"   4 hours ago         Exited (0) 4 hours ago                     sleepy_goodall
+e1245c742d82   e                  "/pause AWS_ACCESS_K…"   4 hours ago         Exited (0) 4 hours ago                     funny_cartwright
+bcad8a46ea15   e                  "/pause AWS_ACCESS_K…"   4 hours ago         Exited (0) 4 hours ago                     festive_mccarthy
+b170c08c463d   my-terraform-env   "/bin/terraform"         4 hours ago         Exited (127) 4 hours ago                   fervent_agnesi
+c55d9b3223fa   my-terraform-env   "/bin/terraform"         4 hours ago         Exited (127) 4 hours ago                   mystifying_margulis
+34e848903c75   my-terraform-env   "/bin/terraform tail…"   5 hours ago         Exited (1) 5 hours ago                     friendly_wiles
+3e43fd1fcd91   my-terraform-env   "/bin/terraform"         5 hours ago         Exited (127) 5 hours ago                   determined_wilbur
+73bbf489d0d1   e                  "/pause AWS_ACCESS_K…"   5 hours ago         Exited (0) 5 hours ago                     strange_liskov
+0f4ba809db57   e                  "/pause AWS_ACCESS_K…"   5 hours ago         Exited (0) 5 hours ago                     dreamy_visvesvaraya
+3961ad2bd411   e                  "/pause AWS_ACCESS_K…"   5 hours ago         Exited (0) 5 hours ago                     modest_mahavira
+a0929eeae884   e                  "/pause AWS_ACCESS_K…"   5 hours ago         Exited (0) 5 hours ago                     naughty_mahavira
+2a60e40da01a   my-terraform-env   "/bin/terraform appl…"   6 hours ago         Exited (0) 6 hours ago                     gifted_elbakyan
+0665e54f3c90   my-terraform-env   "/bin/terraform appl…"   6 hours ago         Exited (0) 6 hours ago                     competent_wilbur
+ff9bf9beaf27   my-terraform-env   "/bin/terraform appl…"   6 hours ago         Exited (0) 6 hours ago                     condescending_meitner
+cd8d457f5847   my-terraform-env   "/bin/terraform appl…"   6 hours ago         Exited (1) 6 hours ago                     elated_swirles
+bfed79333dfd   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (0) 6 hours ago                     pedantic_torvalds
+4aa983b17ee0   my-terraform-env   "/bin/terraform appl…"   6 hours ago         Exited (1) 6 hours ago                     musing_villani
+48ff2de7a834   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (0) 6 hours ago                     admiring_vaughan
+0459d55ac033   my-terraform-env   "/bin/terraform appl…"   6 hours ago         Exited (1) 6 hours ago                     nostalgic_moore
+1000d742649b   my-terraform-env   "/bin/terraform apply"   6 hours ago         Exited (1) 6 hours ago                     loving_mccarthy
+323443a935fb   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (0) 6 hours ago                     dazzling_robinson
+6983c02c1655   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     nostalgic_mendeleev
+2c7f9180c561   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     vigorous_montalcini
+e9dc5814250c   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     stoic_keldysh
+b3e48b9cb0b8   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     trusting_hopper
+f79363a04594   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     exciting_raman
+3516bec90cb6   my-terraform-env   "/bin/terraform init"    6 hours ago         Exited (0) 6 hours ago                     thirsty_jepsen
+47460d81b869   my-terraform-env   "/bin/terraform vali…"   6 hours ago         Exited (0) 6 hours ago                     practical_napier
+c9bf37d1fc3d   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     ecstatic_ritchie
+d55dfeb6359d   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     condescending_edison
+25958af8e816   my-terraform-env   "/bin/terraform plan"    6 hours ago         Exited (1) 6 hours ago                     sweet_darwin
+b437511c0346   my-terraform-env   "/bin/terraform init"    6 hours ago         Exited (0) 6 hours ago                     hardcore_tharp
+e1f4db8f03c9   my-terraform-env   "/bin/terraform terr…"   6 hours ago         Exited (1) 6 hours ago                     epic_jennings
+bd4b245959cb   my-terraform-env   "/bin/terraform terr…"   7 hours ago         Exited (1) 7 hours ago                     naughty_tu
+277cf940533b   my-terraform-env   "/bin/terraform terr…"   7 hours ago         Exited (1) 7 hours ago                     happy_hypatia
+4fbace19d12c   my-terraform-env   "/bin/terraform terr…"   7 hours ago         Exited (1) 7 hours ago                     reverent_edison
+948f924bd0d7   f5a1bc9dfdfd       "/bin/sh"                20 hours ago        Exited (255) 9 hours ago                   sad_bardeen
+abcde6e95967   d928242c96e2       "/bin/sh"                21 hours ago        Exited (0) 20 hours ago                    boring_noyce
+50db16e82c9e   d928242c96e2       "/bin/bash"              21 hours ago        Exited (0) 21 hours ago                    competent_kilby
+26795aa93f0e   d928242c96e2       "-d"                     21 hours ago        Created                                    agitated_napier
