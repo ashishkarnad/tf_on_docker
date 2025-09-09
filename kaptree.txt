@@ -1,0 +1,35 @@
+.
+├── Dockerfile
+├── components
+│   ├── my_component
+│   │   └── my_component.jsonnet
+│   └── other_component
+│       ├── __init__.py
+│       └── __pycache__
+│           └── __init__.cpython-311.pyc
+├── dockcont.txt
+├── dockerrmvcmd.txt
+├── entrypoint.sh
+├── imagelist.txt
+├── inventory
+│   ├── classes
+│   │   ├── common.yml
+│   │   └── my_component.yml
+│   └── targets
+│       ├── my_target.yml
+│       └── my_tf.yml
+├── kaptree.txt
+├── main.tf
+├── provider.tf
+├── refurls.tx
+├── templates
+│   ├── docs
+│   │   └── my_readme.md
+│   └── scripts
+│       └── my_script.sh
+├── terraform.tfstate
+├── terraform.tfstate.backup
+├── variable.tf
+└── wget-log
+
+10 directories, 22 files
