@@ -1,0 +1,12 @@
+parameters:
+  aws_region: us-east-1
+  aws_profile: default
+  vpc: 
+    cidr_block: "10.0.0.0/16"
+    enable_dns_support: true
+    enable_dns_hostnames: true
+    tags:
+      Name: "MyVPC"
+      Environment: "Dev"
+      DeployedBy: "Terraformkapitan"
+      
