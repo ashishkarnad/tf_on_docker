@@ -1,6 +1,6 @@
 parameters:
   ec2:
-    instance_type: "t3.medium"
+    instance_type: "t3.micro"
     ami: "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 AMI (HVM), SSD Volume Type
     key_name: "my-key-pair"
     associate_public_ip_address: true
@@ -15,6 +15,4 @@ parameters:
       delete_on_termination: true
     ebs_block_devices:
       - device_name: "/dev/xvdf"
-        volume_type: "gp3"
-        volume_size: 30   
         delete_on_termination: true 
