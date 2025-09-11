@@ -1,0 +1,31 @@
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up AWS credentials for Docker
+      - name: Setup AWS credentials
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: echo "AWS credentials set"
+
+      # Terraform Init (Docker)
+      - name: Terraform Init
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/compiled/my_tf:/workspace \
+            -e AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
+            -e AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
+            terraform-on-docker init
+
+      # Terraform Apply (Docker)
+      - name: Terraform Apply
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/compiled/my_tf:/workspace \
+            -e AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
+            -e AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
+            terraform-on-docker apply -auto-approve
