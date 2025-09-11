@@ -1,1 +1,0 @@
-docker run --rm -d  -v /home/ashish/pers/docker/tf/compiled/my_tf:/workspace   -e AWS_ACCESS_KEY_ID=AKIAZI2LGABLPC36NHEG   -e AWS_SECRET_ACCESS_KEY=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   -e AWS_DEFAULT_REGION=us-east-1   terraform-on-docker init 
