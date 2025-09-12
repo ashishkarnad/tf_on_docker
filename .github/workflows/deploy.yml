@@ -28,11 +28,11 @@ jobs:
         run: |
           docker run --rm \
             -v ${{ github.workspace }}/compiled/my_tf:/workspace \
-            terraform-on-docker init
+            terraformdocker/terraform  init
 
       # Terraform Apply (Docker)
       - name: Terraform Apply
         run: |
           docker run --rm \
             -v ${{ github.workspace }}/compiled/my_tf:/workspace \
-            terraform-on-docker:latest apply -auto-approve
+            terraformdocker/terraform apply -auto-approve
